@@ -8,10 +8,11 @@ enum {
 export var speed : float = 100;
 var velocity : Vector2 = Vector2.ZERO;
 var states : int = MOVE;
-onready var state_machine = $CollisionShape2D/AnimationTree.get("parameters/playback");
+onready var animation_tree : AnimationTree = $CollisionShape2D/AnimationTree;
+onready var animation_state  = animation_tree.get("parameters/playback")
 
 	
-func _physics_process(delta) -> void:
+func _physics_process(_delta) -> void:
 	
 	match states:
 			
@@ -32,11 +33,16 @@ func walk() -> void:
 	
 	direction = direction.normalized()
 	
+	
 	if direction != Vector2.ZERO:
-		state_machine.travel("walk_down")
-		velocity = direction
+		velocity = direction;
+		animation_tree.set("parameters/idle/blend_position", direction)
+		animation_tree.set("parameters/walk/blend_position", direction)
+		animation_state.travel("walk")
 	else:
-		state_machine.travel("idle_down")
+		animation_state.travel("idle")
 		velocity = Vector2.ZERO
 		
-	velocity = move_and_slide(speed * velocity);
+		
+	velocity = move_and_slide(speed * velocity);	
+		
