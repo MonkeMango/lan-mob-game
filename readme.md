@@ -3,6 +3,8 @@
     <h1>LAN Mob: The Game</h1>
 </p>
 
+### An open source RPG game about a gaming café I used to go to as a kid. 
+
 <p>
   <h1>
   Licensing:
