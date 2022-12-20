@@ -11,4 +11,4 @@ An open source RPG game about a gaming café I used to go to as a kid. Made usin
   </h1>
 </p>
 
-  ### This game has a GPL license! You can read all about it [here!](https://www.gnu.org/licenses/gpl-3.0.en.html)
+  ### This game has an Apache 2.0 license! You can read all about it [here!](https://www.apache.org/licenses/LICENSE-2.0)
