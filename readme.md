@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://cdn.discordapp.com/attachments/1054716933959843853/1054720710200787064/boot_splash.png" width="750"/></a>
+    <img src="https://user-images.githubusercontent.com/95188711/208657929-ff237cad-ab64-40d0-902c-25f4814efd9f.png" width="750"/></a>
     <h1>LAN Mob: The Game</h1>
 </p>
 
