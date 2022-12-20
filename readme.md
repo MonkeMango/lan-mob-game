@@ -11,4 +11,4 @@ An open source RPG game about a gaming café I used to go to as a kid. Made usin
   </h1>
 </p>
 
-  ### This game has an Apache 2.0 license! You can read all about it [here!](https://github.com/MonkeMango/lan-mob-game/blob/master/LICENSE)
+  ### This game has an Apache 2.0 license! You can read all about it [here!](./LICENSE)
