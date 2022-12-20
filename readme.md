@@ -7,6 +7,5 @@
   <h1>
   Licensing:
   </h1>
-  * This game has a GPL license! You can read all about it [here]{(https://www.gnu.org/licenses/gpl-3.0.en.html)}!
-
 </p>
+### This game has a GPL license! You can read all about it [here]{(https://www.gnu.org/licenses/gpl-3.0.en.html)}!
