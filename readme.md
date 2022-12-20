@@ -3,7 +3,7 @@
     <h1>LAN Mob: The Game</h1>
 </p>
 
-### An open source RPG game about a gaming café I used to go to as a kid. 
+An open source RPG game about a gaming café I used to go to as a kid. Made using Godot v3.5.1.
 
 <p>
   <h1>
