@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://user-images.githubusercontent.com/95188711/208657929-ff237cad-ab64-40d0-902c-25f4814efd9f.png" width="750"/></a>
+    <img src="https://user-images.githubusercontent.com/95188711/208841121-10a1bde1-4398-4349-a362-5da024068d71.png" width="750"/></a>
     <h1>LAN Mob: The Game</h1>
 </p>
 
