@@ -227,7 +227,6 @@ position = Vector2( 0, 0.5 )
 texture = ExtResource( 2 )
 hframes = 4
 vframes = 4
-frame = 5
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="CollisionShape2D"]
 root_node = NodePath("../..")
@@ -247,11 +246,10 @@ tree_root = SubResource( 9 )
 anim_player = NodePath("../AnimationPlayer")
 active = true
 parameters/playback = SubResource( 10 )
-parameters/idle/blend_position = Vector2( 0, 0 )
+parameters/idle/blend_position = Vector2( 0, 0.001 )
 parameters/walk/blend_position = Vector2( 0, 0 )
 
 [node name="Camera2D" type="Camera2D" parent="."]
 current = true
 zoom = Vector2( 1.15, 1.15 )
-smoothing_enabled = true
 smoothing_speed = 10.0
