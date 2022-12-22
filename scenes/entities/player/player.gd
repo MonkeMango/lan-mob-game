@@ -12,16 +12,20 @@ var xval : float
 var velocity : Vector2 = Vector2.ZERO;
 var direction : Vector2
 var states : int = MOVE;
+
+#NOTE: Handles animation
 onready var animation_tree : AnimationTree = $CollisionShape2D/AnimationTree;
 onready var animation_state  = animation_tree.get("parameters/playback");
 
-	
 func _physics_process(_delta) -> void:
 	
+	#NOTE: Stole this shit straight from SAS lmao sorry Cooling 🥵
+
 	if OS.is_debug_build():
 		if Input.is_action_pressed("reset"):
 			 var _success = get_tree().reload_current_scene()
 	
+	#NOTE: Gets direction
 	direction = Vector2(
 		Input.get_action_strength("move_right") - Input.get_action_strength("move_left"),
 		Input.get_action_strength("move_down") - Input.get_action_strength("move_up")
@@ -49,9 +53,6 @@ func _physics_process(_delta) -> void:
 			
 		UNHANDLED:
 			pass
-	
-	
-	
 	
 func walk() -> void:
 	animation_tree.set("parameters/walk/blend_position", direction);
