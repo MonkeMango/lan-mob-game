@@ -246,8 +246,8 @@ tree_root = SubResource( 9 )
 anim_player = NodePath("../AnimationPlayer")
 active = true
 parameters/playback = SubResource( 10 )
-parameters/idle/blend_position = Vector2( 0, 0.001 )
-parameters/walk/blend_position = Vector2( 0, 0 )
+parameters/idle/blend_position = Vector2( 0, 0.086 )
+parameters/walk/blend_position = Vector2( 0, 0.086 )
 
 [node name="Camera2D" type="Camera2D" parent="."]
 current = true
